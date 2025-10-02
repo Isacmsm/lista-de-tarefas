@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* Estilos para os Alertas */
+.alerta {
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.alerta-success {
+  background-color: #4CAF50; /* Verde */
+}
+
+.alerta-error {
+  background-color: #f44336; /* Vermelho */
+}
