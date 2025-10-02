@@ -1,13 +1,13 @@
 # Mini Aplicação React - Gerenciador de Lista de Alunos
 
-[cite_start]Este projeto é uma simples aplicação em React desenvolvida para a disciplina de **ADS 2MA**, ministrada pelo Professor Renato Freire[cite: 2]. [cite_start]O objetivo é demonstrar os conceitos fundamentais de React, como componentização, estado, eventos e renderização condicional, através da criação de um gerenciador de lista de alunos[cite: 4, 5, 6, 7, 9].
+Este projeto é uma simples aplicação em React desenvolvida para a disciplina de **ADS 2MA**, ministrada pelo Professor Renato Freire. O objetivo é demonstrar os conceitos fundamentais de React, como componentização, estado, eventos e renderização condicional, através da criação de um gerenciador de lista de alunos
 
 ---
 
 ## 👨‍💻 Integrante
 
-* **Nome Completo:** [Isac Manoel Soares Macedo]
-* **Matrícula:** [01797008]
+* **Nome Completo:** Isac Manoel Soares Macedo
+* **Matrícula:** 01797008
 
 ---
 
@@ -19,7 +19,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Vite:** Ferramenta de build para um ambiente de desenvolvimento rápido.
 * **JavaScript:** Linguagem de programação base.
 * **CSS:** Para estilizações básicas.
-* [cite_start]**Git & GitHub:** Para versionamento e hospedagem do código[cite: 10].
+* **Git & GitHub:** Para versionamento e hospedagem do código.
 
 ---
 
@@ -29,7 +29,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Isacmsm/lista-de-tarefas]
+    git clone https://github.com/Isacmsm/lista-de-tarefas
     ```
 
 2.  **Instale as dependências:**
@@ -45,6 +45,4 @@ Para executar este projeto localmente, siga os passos abaixo:
 ---
 ## 📸 Screenshots
 
-[cite_start]
-
-![Exemplo de Screenshot](./src/Componentes/Captura%20de%20tela%202025-10-02%20101738.png)
+![Screenshot](./src/Componentes/Captura%20de%20tela%202025-10-02%20101738.png)
