@@ -1,7 +1,7 @@
 # Mini Aplicação React - Gerenciador de Lista de Alunos
 
 Este projeto é uma simples aplicação em React desenvolvida para a disciplina de **ADS 2MA**, ministrada pelo Professor Renato Freire. O objetivo é demonstrar os conceitos fundamentais de React, como componentização, estado, eventos e renderização condicional, através da criação de um gerenciador de lista de alunos.
->>>>>>> 7270dcfcd3c7353d29b0e92b6a5e16cb189c20b6
+
 
 ---
 
@@ -48,6 +48,4 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 <<<<<<< HEAD
 ![Screenshot](./src/Componentes/Captura%20de%20tela%202025-10-02%20101738.png)
-=======
-![Exemplo de Screenshot](./src/Componentes/Captura%20de%20tela%202025-10-02%20101738.png)
->>>>>>> 7270dcfcd3c7353d29b0e92b6a5e16cb189c20b6
+
