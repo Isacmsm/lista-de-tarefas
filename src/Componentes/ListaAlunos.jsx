@@ -1,29 +1,21 @@
 // src/Componentes/ListaAlunos.jsx
+import CardAluno from './CardAluno.jsx';
 
-function ListaAlunos() {
-    // Criamos um array (lista) de objetos. Cada objeto é um aluno.
-    const alunos = [
-      { id: 1, nome: 'Ana Carolina' },
-      { id: 2, nome: 'Bruno Gomes' },
-      { id: 3, nome: 'Carla Dias' },
-      { id: 4, nome: 'Daniel Martins' }
-    ];
-  
-    // Usamos a função .map() para transformar nossa lista de dados
-    // em uma lista de elementos HTML.
-    const listaDeAlunosNaTela = alunos.map(aluno => (
-      <li key={aluno.id}>{aluno.nome}</li>
-    ));
-    // A 'key' é um identificador único que o React usa para otimizar a lista.
-  
-    return (
-      <div>
-        <h2>Lista de Alunos</h2>
-        <ul>
-          {listaDeAlunosNaTela}
-        </ul>
-      </div>
-    );
-  }
-  
-  export default ListaAlunos;
+// O componente agora recebe a lista de alunos e a função de remover via props.
+function ListaAlunos({ alunos, onRemoverAluno }) {
+  return (
+    <div>
+      <h2>Lista de Alunos</h2>
+      {/* Para cada aluno na lista, renderizamos um componente CardAluno */}
+      {alunos.map(aluno => (
+        <CardAluno 
+          key={aluno.id} 
+          aluno={aluno} 
+          onRemover={onRemoverAluno} 
+        />
+      ))}
+    </div>
+  );
+}
+
+export default ListaAlunos;
